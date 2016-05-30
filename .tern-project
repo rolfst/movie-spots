@@ -1,0 +1,26 @@
+{
+  "ecmaVersion": 6,
+  "libs": [
+    "browser",
+    "jquery"
+  ],
+  "loadEagerly": [
+    "src/**/*.js"
+  ],
+  "dontLoad": [
+    "test/**/*.js"
+  ],
+  "plugins": {
+    "node": {},
+    "lint": {},
+    "node-extension": {},
+    "complete_strings": {},
+    "node": {},
+    "lint": {},
+    "modules": {},
+    "es_modules": {},
+    "doc_comment": {
+      "fullDocs": true
+    }
+  }
+}
