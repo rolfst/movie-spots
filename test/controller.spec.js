@@ -21,7 +21,7 @@ describe('location handler', () => {
     done()
   })
 
-  it.only('should ', function (done) {
+  it('should retrieve locations', function (done) {
     server.route({
       method: 'GET',
       path: '/locations',
